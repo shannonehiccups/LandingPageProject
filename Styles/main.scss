@@ -1,0 +1,54 @@
+
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,700;1,300&display=swap');
+// placeholder for font family:
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+
+* {
+    color: $blueberry;
+}
+
+.mynavbar {
+    font-family: 'Merriweather', serif; 
+
+}
+
+#showcase {
+    min-height: 800px;
+    background: url('/Images/filteredCheesecake.png');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #showcase h1 {
+    margin-bottom: 10px;
+    font-size: 75px;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    padding-top: 250px;
+  }
+  
+  #showcase p {
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+
+#story h1 {
+    font-family: 'Merriweather', serif;
+}
+
+#story div {
+    max-width: 80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#story div img {
+max-width: 300px;
+float: right;
+}
