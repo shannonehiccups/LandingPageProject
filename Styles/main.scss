@@ -11,7 +11,15 @@
 
 .mynavbar {
     font-family: 'Merriweather', serif; 
-
+    background-color: $blueberry;
+    text-decoration: none; 
+    color: $background;
+    font-size: 24px;
+    padding: 3px 20px;
+    margin: 0;
+.mynavbutton {
+  font-size: 18px;
+}
 }
 
 #showcase {
