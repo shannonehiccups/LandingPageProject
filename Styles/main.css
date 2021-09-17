@@ -17,6 +17,10 @@
   font-size: 18px;
 }
 
+.mynavbar .mynavbutton:hover {
+  color: #9d0f0d;
+}
+
 #showcase {
   min-height: 800px;
   background-image: url("/Users/student/Desktop/WebDevelopment/LandingPageWithBootstrap/Styles/filteredCheesecake.png");
@@ -58,4 +62,6 @@
   max-width: 300px;
   float: right;
 }
+
+@me;
 /*# sourceMappingURL=main.css.map */

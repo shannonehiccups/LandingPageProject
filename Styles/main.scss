@@ -9,6 +9,7 @@
     color: $blueberry;
 }
 
+// styling for the navbar section
 .mynavbar {
     font-family: 'Merriweather', serif; 
     background-color: $blueberry;
@@ -21,6 +22,12 @@
   font-size: 18px;
 }
 }
+
+.mynavbar .mynavbutton:hover {
+  color: $raspberry;
+}
+
+// Styling for the showcase section
 
 #showcase {
     min-height: 800px;
@@ -44,11 +51,10 @@
     font-family: 'Source Sans Pro', sans-serif;
   }
 
-
+// styling the #story section
 #story h1 {
     font-family: 'Merriweather', serif;
 }
-
 #story div {
     max-width: 80%;
     margin:auto;
@@ -59,4 +65,28 @@
 #story div img {
 max-width: 300px;
 float: right;
+}
+
+// Styling the sample menu section 
+
+
+// styling the contact us section 
+
+
+
+// Styling the follow us section
+
+
+
+
+
+// media queries for the nav bar
+
+
+
+
+
+// media queries for the showcase section 
+@media (max-width 1193px) {
+  
 }
