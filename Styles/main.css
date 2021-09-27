@@ -35,4 +35,14 @@
   font-family: 'DM Serif Display', serif;
   font-size: 75px;
 }
+
+#aboutUs {
+  background-color: #919393;
+  color: #212d35;
+  font-family: 'Poppins', sans-serif;
+}
+
+#aboutUs h1 {
+  font-family: 'DM Serif Display', serif;
+}
 /*# sourceMappingURL=main.css.map */
